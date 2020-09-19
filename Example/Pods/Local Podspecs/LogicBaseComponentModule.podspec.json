@@ -31,15 +31,6 @@
     ],
     "Masonry": [
       "~> 1.1.0"
-    ],
-    "XXNibBridge": [
-
-    ],
-    "SDWebImage": [
-
-    ],
-    "lottie-ios": [
-      "~> 2.5.3"
     ]
   }
 }

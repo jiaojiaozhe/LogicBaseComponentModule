@@ -15,21 +15,14 @@ PODS:
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
   - LogicBaseComponentModule (0.0.1):
-    - lottie-ios (~> 2.5.3)
     - Masonry (~> 1.1.0)
-    - SDWebImage
     - XAbstractionLibrary-UICommon
-    - XXNibBridge
-  - lottie-ios (2.5.3)
   - Mantle (2.1.1):
     - Mantle/extobjc (= 2.1.1)
   - Mantle/extobjc (2.1.1)
   - Masonry (1.1.0)
   - MD5Digest (1.1.0)
   - OpenUDID (1.0.0)
-  - SDWebImage (5.9.0):
-    - SDWebImage/Core (= 5.9.0)
-  - SDWebImage/Core (5.9.0)
   - XAbstractionLibrary-Base (0.0.19):
     - MD5Digest
     - OpenUDID
@@ -56,12 +49,10 @@ SPEC REPOS:
     - XAbstractionLibrary-UICommon
   https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
     - AFNetworking
-    - lottie-ios
     - Mantle
     - Masonry
     - MD5Digest
     - OpenUDID
-    - SDWebImage
     - XXNibBridge
 
 EXTERNAL SOURCES:
@@ -70,13 +61,11 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LogicBaseComponentModule: 5852cb0213062ad2092c34b1be85b96c7fa4f7cc
-  lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
+  LogicBaseComponentModule: 9a1047842deeacc4abf730f9fa79d478f8e4932d
   Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
-  SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
   XAbstractionLibrary-Base: d993441feddf4335783491c1bb6722b04412cf45
   XAbstractionLibrary-NetWork: 0b9054b126191e532b2c75fe27cc52a004fc7997
   XAbstractionLibrary-Parse: 357511923d4b686e8822950939f4dea1a3102c99

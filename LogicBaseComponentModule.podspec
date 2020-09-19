@@ -41,9 +41,9 @@ Pod::Spec.new do |s|
   
   s.dependency 'XAbstractionLibrary-UICommon'
   s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'XXNibBridge'
-  s.dependency 'SDWebImage'
-  s.dependency 'lottie-ios', '~> 2.5.3'
+#  s.dependency 'XXNibBridge'
+#  s.dependency 'SDWebImage'
+#  s.dependency 'lottie-ios', '~> 2.5.3'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
