@@ -1,0 +1,6 @@
+framework module LogicBaseComponentModule {
+  umbrella header "LogicBaseComponentModule-umbrella.h"
+
+  export *
+  module * { export * }
+}
