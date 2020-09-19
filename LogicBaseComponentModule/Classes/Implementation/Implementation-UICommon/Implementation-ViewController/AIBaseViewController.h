@@ -6,7 +6,7 @@
 //  Copyright © 2018年 lanbiao. All rights reserved.
 //
 
-#import "View+MASAdditions.h"
+#import <Masonry/Masonry.h>
 #import <XAbstractionLibrary_UICommon/XAbstractionLibrary-UICommon-umbrella.h>
 
 /**
