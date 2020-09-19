@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LogicBaseComponentModule_Example' do
+  pod 'LogicBaseComponentModule', :path => '../'
+
+  target 'LogicBaseComponentModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
