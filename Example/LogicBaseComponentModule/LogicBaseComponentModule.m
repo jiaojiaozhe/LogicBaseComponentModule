@@ -11,6 +11,6 @@
 @implementation LogicBaseComponentModule
 
 + (NSBundle *) bundle{
-    return [self bundleWithName:@"LogicBaseComponentModule"];
+    return [self bundleWithName:NSStringFromClass([self class])];
 }
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "XLBViewController.h"
+#import "LogicBaseComponentModule.h"
 
 @interface XLBViewController ()
 
@@ -18,6 +19,8 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    NSBundle *bundle = [LogicBaseComponentModule bundle];
+    NSLog(@"");
 }
 
 - (void)didReceiveMemoryWarning
