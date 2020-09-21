@@ -24,6 +24,7 @@
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8E51DBA8A5714A99F0321040 /* Pods_LogicBaseComponentModule_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21100320FD492BCB0D7603CD /* Pods_LogicBaseComponentModule_Example.framework */; };
 		B87D504E856088F643D70732 /* Pods_LogicBaseComponentModule_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 219EADB2ACB3C0F5DCFEA6D5 /* Pods_LogicBaseComponentModule_Tests.framework */; };
+		BCE865D72518A35C0020D34E /* LogicBaseComponentModule.m in Sources */ = {isa = PBXBuildFile; fileRef = BCE865D62518A35C0020D34E /* LogicBaseComponentModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,8 @@
 		93157AE024FCBB6F2B983236 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		9B8EC1414AD43DD172756240 /* Pods-LogicBaseComponentModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicBaseComponentModule_Example.debug.xcconfig"; path = "Target Support Files/Pods-LogicBaseComponentModule_Example/Pods-LogicBaseComponentModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A9A84D2D4E33433417119C97 /* Pods-LogicBaseComponentModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogicBaseComponentModule_Tests.release.xcconfig"; path = "Target Support Files/Pods-LogicBaseComponentModule_Tests/Pods-LogicBaseComponentModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BCE865D52518A35C0020D34E /* LogicBaseComponentModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogicBaseComponentModule.h; sourceTree = "<group>"; };
+		BCE865D62518A35C0020D34E /* LogicBaseComponentModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogicBaseComponentModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				BCE865D52518A35C0020D34E /* LogicBaseComponentModule.h */,
+				BCE865D62518A35C0020D34E /* LogicBaseComponentModule.m */,
 			);
 			name = "Example for LogicBaseComponentModule";
 			path = LogicBaseComponentModule;
@@ -311,11 +316,13 @@
 				"${BUILT_PRODUCTS_DIR}/Mantle/Mantle.framework",
 				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/OpenUDID/OpenUDID.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Base/XAbstractionLibrary_Base.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-NetWork/XAbstractionLibrary_NetWork.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-Parse/XAbstractionLibrary_Parse.framework",
 				"${BUILT_PRODUCTS_DIR}/XAbstractionLibrary-UICommon/XAbstractionLibrary_UICommon.framework",
 				"${BUILT_PRODUCTS_DIR}/XXNibBridge/XXNibBridge.framework",
+				"${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -325,11 +332,13 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Mantle.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/OpenUDID.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_Base.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_NetWork.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_Parse.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XAbstractionLibrary_UICommon.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXNibBridge.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lottie.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -390,6 +399,7 @@
 				6003F59E195388D20070C39A /* XLBAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* XLBViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				BCE865D72518A35C0020D34E /* LogicBaseComponentModule.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

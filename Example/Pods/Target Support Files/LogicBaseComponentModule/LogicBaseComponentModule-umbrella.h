@@ -39,6 +39,7 @@
 #import "AIBaseRefreshViewPresenter.h"
 #import "AIBaseViewController.h"
 #import "AIBaseViewPresenter.h"
+#import "ModuleBundle.h"
 #import "AIAES.h"
 
 FOUNDATION_EXPORT double LogicBaseComponentModuleVersionNumber;
