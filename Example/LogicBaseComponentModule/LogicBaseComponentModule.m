@@ -10,7 +10,4 @@
 
 @implementation LogicBaseComponentModule
 
-+ (NSBundle *) bundle{
-    return [self bundleWithName:NSStringFromClass([self class])];
-}
 @end

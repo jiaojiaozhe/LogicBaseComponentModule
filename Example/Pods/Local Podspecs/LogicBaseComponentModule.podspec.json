@@ -1,6 +1,6 @@
 {
   "name": "LogicBaseComponentModule",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "summary": "业务基础组件",
   "description": "业务基础组件，主要用于对抽象化组件结合业务特点而进行的实例化，属于快速搭建架构的部分",
   "homepage": "https://github.com/jiaojiaozhe/LogicBaseComponentModule",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/jiaojiaozhe/LogicBaseComponentModule.git",
-    "tag": "0.0.6"
+    "tag": "0.0.7"
   },
   "platforms": {
     "ios": "8.0"
