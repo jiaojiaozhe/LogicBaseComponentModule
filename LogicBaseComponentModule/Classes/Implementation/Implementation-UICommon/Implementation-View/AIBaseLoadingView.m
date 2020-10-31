@@ -6,6 +6,7 @@
 //  Copyright © 2018年 lanbiao. All rights reserved.
 //
 
+#import "ModuleBundle.h"
 #import "AIBaseLoadingView.h"
 
 @interface AIBaseLoadingView()
@@ -15,11 +16,7 @@
 @implementation AIBaseLoadingView
 
 + (id<XIBaseLoadingViewDelegate>) createLoadingView{
-    NSString *className = NSStringFromClass([self class]);
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    AIBaseLoadingView *loadingView = [[bundle loadNibNamed:className
-                                                     owner:nil
-                                                   options:nil] firstObject];
+    AIBaseLoadingView *loadingView = (AIBaseLoadingView*)[ModuleBundle viewWithXibFileName:NSStringFromClass([self class]) bundleName:@"LogicBaseComponentModule"];
     return loadingView;
 }
 

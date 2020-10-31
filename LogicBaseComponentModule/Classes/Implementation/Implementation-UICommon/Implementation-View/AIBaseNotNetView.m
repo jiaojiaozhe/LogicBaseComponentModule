@@ -6,6 +6,7 @@
 //  Copyright © 2018年 lanbiao. All rights reserved.
 //
 
+#import "ModuleBundle.h"
 #import "AIBaseNotNetView.h"
 
 @interface AIBaseNotNetView()
@@ -16,11 +17,7 @@
 @implementation AIBaseNotNetView
 
 + (id<XIBaseNotNetViewDelegate>) createNotNetView{
-    NSString *className = NSStringFromClass([self class]);
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    AIBaseNotNetView *notNetView = [[bundle loadNibNamed:className
-                                                   owner:nil
-                                                 options:nil] firstObject];
+    AIBaseNotNetView *notNetView = (AIBaseNotNetView*)[ModuleBundle viewWithXibFileName:NSStringFromClass([self class]) bundleName:@"LogicBaseComponentModule"];
     return notNetView;
 }
 

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'LogicBaseComponentModule'
-  s.version          = '0.0.8'
+  s.version          = '0.0.9'
   s.summary          = '业务基础组件'
 
 # This description is used to generate tags and improve search results.
@@ -28,7 +28,7 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/jiaojiaozhe/LogicBaseComponentModule.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'LogicBaseComponentModule/Classes/**/*'
   
@@ -40,6 +40,9 @@ Pod::Spec.new do |s|
    }
   
   s.dependency 'XAbstractionLibrary-UICommon'
+  s.dependency 'XAbstractionLibrary-NetWork'
+  s.dependency 'XAbstractionLibrary-Parse'
+  s.dependency 'XAbstractionLibrary-Base'
   s.dependency 'Masonry', '~> 1.1.0'
   s.dependency 'SDWebImage'
   s.dependency 'lottie-ios', '~> 2.5.3'

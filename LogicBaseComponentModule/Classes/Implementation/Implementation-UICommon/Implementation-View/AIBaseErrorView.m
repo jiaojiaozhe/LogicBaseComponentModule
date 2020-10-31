@@ -6,6 +6,7 @@
 //  Copyright © 2018年 lanbiao. All rights reserved.
 //
 
+#import "ModuleBundle.h"
 #import "AIBaseErrorView.h"
 
 @interface AIBaseErrorView()
@@ -16,11 +17,7 @@
 @implementation AIBaseErrorView
 
 + (id<XIBaseErrorViewDelegate>) createErrorView{
-    NSString *className = NSStringFromClass([self class]);
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    AIBaseErrorView *errorView = [[bundle loadNibNamed:className
-                                                 owner:nil
-                                               options:nil] firstObject];
+    AIBaseErrorView *errorView = (AIBaseErrorView*)[ModuleBundle viewWithXibFileName:NSStringFromClass([self class]) bundleName:@"LogicBaseComponentModule"];
     return errorView;
 }
 

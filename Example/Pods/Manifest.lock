@@ -1,44 +1,48 @@
 PODS:
-  - AFNetworking (3.2.1):
-    - AFNetworking/NSURLSession (= 3.2.1)
-    - AFNetworking/Reachability (= 3.2.1)
-    - AFNetworking/Security (= 3.2.1)
-    - AFNetworking/Serialization (= 3.2.1)
-    - AFNetworking/UIKit (= 3.2.1)
-  - AFNetworking/NSURLSession (3.2.1):
+  - AFNetworking (4.0.1):
+    - AFNetworking/NSURLSession (= 4.0.1)
+    - AFNetworking/Reachability (= 4.0.1)
+    - AFNetworking/Security (= 4.0.1)
+    - AFNetworking/Serialization (= 4.0.1)
+    - AFNetworking/UIKit (= 4.0.1)
+  - AFNetworking/NSURLSession (4.0.1):
     - AFNetworking/Reachability
     - AFNetworking/Security
     - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.2.1)
-  - AFNetworking/Security (3.2.1)
-  - AFNetworking/Serialization (3.2.1)
-  - AFNetworking/UIKit (3.2.1):
+  - AFNetworking/Reachability (4.0.1)
+  - AFNetworking/Security (4.0.1)
+  - AFNetworking/Serialization (4.0.1)
+  - AFNetworking/UIKit (4.0.1):
     - AFNetworking/NSURLSession
-  - LogicBaseComponentModule (0.0.7):
+  - LogicBaseComponentModule (0.0.8):
     - lottie-ios (~> 2.5.3)
     - Masonry (~> 1.1.0)
     - SDWebImage
+    - XAbstractionLibrary-Base
+    - XAbstractionLibrary-NetWork
+    - XAbstractionLibrary-Parse
     - XAbstractionLibrary-UICommon
   - lottie-ios (2.5.3)
-  - Mantle (2.1.1):
-    - Mantle/extobjc (= 2.1.1)
-  - Mantle/extobjc (2.1.1)
+  - Mantle (2.1.6):
+    - Mantle/extobjc (= 2.1.6)
+  - Mantle/extobjc (2.1.6)
   - Masonry (1.1.0)
   - MD5Digest (1.1.0)
   - OpenUDID (1.0.0)
   - SDWebImage (5.9.0):
     - SDWebImage/Core (= 5.9.0)
   - SDWebImage/Core (5.9.0)
-  - XAbstractionLibrary-Base (0.0.19):
+  - XAbstractionLibrary-Base (0.0.26):
     - MD5Digest
     - OpenUDID
-  - XAbstractionLibrary-NetWork (0.0.18):
+  - XAbstractionLibrary-NetWork (0.0.26):
     - AFNetworking
     - XAbstractionLibrary-Base
-  - XAbstractionLibrary-Parse (0.0.7):
+  - XAbstractionLibrary-Parse (0.0.26):
     - Mantle (~> 2.1.0)
     - XAbstractionLibrary-Base
-  - XAbstractionLibrary-UICommon (0.0.19):
+  - XAbstractionLibrary-UICommon (0.0.26):
+    - XAbstractionLibrary-Base
     - XAbstractionLibrary-NetWork
     - XAbstractionLibrary-Parse
     - XXNibBridge
@@ -68,20 +72,20 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  LogicBaseComponentModule: 5ff74f085f2ffea1603e10064084144316531030
+  AFNetworking: 7864c38297c79aaca1500c33288e429c3451fdce
+  LogicBaseComponentModule: 906eb36136186ed7e5788d1a8c82cdbf8e8b6f63
   lottie-ios: a50d5c0160425cd4b01b852bb9578963e6d92d31
-  Mantle: 35238ae6f2e2b2d474fa7b67fee82a59fea71915
+  Mantle: 4c0ed6ce47c96eccc4dc3bb071deb3def0e2c3be
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MD5Digest: fea371215507cfcdc3c9633d02cffc7fd075ebc3
   OpenUDID: e7cb6984c7304906ad20f3a36bf087b025896b6b
   SDWebImage: 62ae4a18473520c67b79e9724c31a63599cc9423
-  XAbstractionLibrary-Base: d993441feddf4335783491c1bb6722b04412cf45
-  XAbstractionLibrary-NetWork: 0b9054b126191e532b2c75fe27cc52a004fc7997
-  XAbstractionLibrary-Parse: 357511923d4b686e8822950939f4dea1a3102c99
-  XAbstractionLibrary-UICommon: 7fd862d4f07896b1a8208175ba1c5d11e4e20c40
+  XAbstractionLibrary-Base: f345d0195eca303b182cb542797cf769c3ead099
+  XAbstractionLibrary-NetWork: 87a5f6e2ddd5f66e0c30c6cf7ed13a88d2b4b6da
+  XAbstractionLibrary-Parse: f517318f32af7b610e0f7dc6c60c26e3b26c6a67
+  XAbstractionLibrary-UICommon: c3c387a183b21a5ef4b5dc0a808095af28dbfd5e
   XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
 
-PODFILE CHECKSUM: 15fc658606ae7dc6ba9091818bf5581bfaa0ec2e
+PODFILE CHECKSUM: 46affbe5e58c44f1eb610dd01b59e8a4f5d8cff2
 
 COCOAPODS: 1.9.1

@@ -6,6 +6,7 @@
 //  Copyright © 2018年 lanbiao. All rights reserved.
 //
 
+#import "ModuleBundle.h"
 #import "AIBaseNotDataView.h"
 
 @interface AIBaseNotDataView()
@@ -16,11 +17,7 @@
 @implementation AIBaseNotDataView
 
 + (id<XIBaseNotDataViewDelegate>) createNotDataView{
-    NSString *className = NSStringFromClass([self class]);
-    NSBundle *bundle = [NSBundle bundleForClass:[self class]];
-    AIBaseNotDataView *notDataView = [[bundle loadNibNamed:className
-                                                     owner:nil
-                                                   options:nil] firstObject];
+    AIBaseNotDataView *notDataView = (AIBaseNotDataView*)[ModuleBundle viewWithXibFileName:NSStringFromClass([self class]) bundleName:@"LogicBaseComponentModule"];
     return notDataView;
 }
 
